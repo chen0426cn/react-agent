@@ -19,3 +19,6 @@ dist/
 .idea/
 .vscode/
 .DS_Store
+rag/chroma_db/
+logs/
+md5.text
