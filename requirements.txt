@@ -1,0 +1,40 @@
+# 生成时间：2026-09-08
+# 依据：.venv 实际安装版本（pip freeze），锁定精确版本以保证可复现
+# 注意：本项目已迁移到 langchain 1.x，旧版 0.1.x 依赖已全部移除
+
+# ---- LangChain 核心与集成 ----
+langchain==1.4.0
+langchain-core==1.6.2
+langchain-community==0.4.2
+langchain-text-splitters==1.1.2
+langchain-chroma==1.1.0
+langchain-deepseek==1.1.0
+langchain-openai==1.6.0
+
+# ---- 向量库 ----
+chromadb==1.5.9
+
+# ---- 模型服务 SDK ----
+dashscope==1.27.4
+openai==3.8.0
+tiktoken==0.14.0
+
+# ---- 配置与数据校验 ----
+python-dotenv==1.2.3
+PyYAML==6.0.3
+pydantic==2.13.5
+pydantic-settings==2.15.0
+
+# ---- 文档加载 ----
+pypdf==6.18.0
+
+# ---- 基础依赖 ----
+numpy==2.4.6
+requests==2.34.2
+aiohttp==3.14.3
+urllib3==2.7.0
+anyio==4.15.1
+tqdm==4.70.0
+
+# streamlit界面
+streamlit==1.64.0

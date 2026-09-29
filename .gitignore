@@ -1,0 +1,21 @@
+# 虚拟环境（千万别提交！）
+.venv/
+venv/
+env/
+
+# Python 缓存/编译产物
+__pycache__/
+*.py[cod]
+*.egg-info/
+build/
+dist/
+
+# 密钥/环境变量（LLM 项目常放 API Key）
+.env
+.env.*
+*.key
+
+# 编辑器/系统文件
+.idea/
+.vscode/
+.DS_Store
